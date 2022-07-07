@@ -8,7 +8,7 @@
 ## Read in the data
 #install.packages("readxl")
 library(mice)
-setwd("C:/Users/TheBeast3.0/Dropbox/SFU-UVIC/PostDoc/Project1-ExtractingFeatureWithCNN/NN_IG_BeulacEtAl/NN_IG_BeulacEtAl")
+setwd("")
 SNP.data<-read.csv('GeneData.csv')
 SNP.grouping<-read.csv('SNP_Mapping.csv')
 MRI.expert.data<-read.csv('ResExpeFeatures.csv')
