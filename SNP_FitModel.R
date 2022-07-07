@@ -8,7 +8,7 @@
 ## Read in the data
 #install.packages("readxl")
 library(bgsmtr)
-setwd("C:/Users/TheBeast3.0/Dropbox/SFU-UVIC/PostDoc/Project1-ExtractingFeatureWithCNN/NN_IG_BeulacEtAl/NN_IG_BeulacEtAl")
+setwd("")
 X.expert<-read.csv('X.expert.csv')
 X.expert <- X.expert[,2:ncol(X.expert)]
 Y.expert<-read.csv('Y.expert.csv')
