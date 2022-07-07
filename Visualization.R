@@ -3,7 +3,7 @@
 
 library(tsne)
 library(ggplot2)
-setwd("C:/Users/TheBeast3.0/Dropbox/SFU-UVIC/PostDoc/Project1-ExtractingFeatureWithCNN/NN_IG_BeulacEtAl/NN_IG_BeulacEtAl")
+setwd("")
 
 AD.status <- read.csv('AD_status.csv')
 MRI.expert.data<-read.csv('ResExpeFeatures.csv')
